@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by ed on 4/23/15.
@@ -12,26 +14,26 @@ public class GuessGame {
         System.out.println("The number I guess: " + numberIGuessed);
 
         while (true){
-            int[] guessedNumbers = new int[3];
+            List<Integer> guessedNumbers = new ArrayList<Integer>();
             for(int i= 0; i < players.length; i++){
                 players[i].guess();
-                guessedNumbers[i] = players[i].getNumber();
+                guessedNumbers.add(i, players[i].getNumber());
             }
 
-            if(Arrays.asList(guessedNumbers).contains(numberIGuessed)){
+            if(guessedNumbers.contains(numberIGuessed)){
 
                 System.out.println("We have a winner!");
 
-                if(guessedNumbers[0] == numberIGuessed){
+                if(guessedNumbers.get(0) == numberIGuessed){
                     System.out.println("First player guess the number!");
                 }
 
-                if(guessedNumbers[1]  == numberIGuessed){
+                if(guessedNumbers.get(1)  == numberIGuessed){
                     System.out.println("Second player guess the number!");
                 }
 
 
-                if(guessedNumbers[2]  == numberIGuessed){
+                if(guessedNumbers.get(2)  == numberIGuessed){
                     System.out.println("Third player guess the number!");
                 }
 
