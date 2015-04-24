@@ -19,6 +19,7 @@ public class GuessGame {
                 players[i].guess();
                 guessedNumbers.add(i, players[i].getNumber());
             }
+            Thread.dumpStack();
 
             if(guessedNumbers.contains(numberIGuessed)){
 
