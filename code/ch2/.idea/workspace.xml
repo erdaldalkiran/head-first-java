@@ -67,7 +67,7 @@
       <file leaf-file-name="GameLauncher.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GameLauncher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="6" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -76,10 +76,9 @@
       <file leaf-file-name="GuessGame.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GuessGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="68" selection-start="461" selection-end="461" vertical-scroll-proportion="0.21197411" vertical-offset="109" max-vertical-offset="825">
+            <state line="16" column="68" selection-start="461" selection-end="461" vertical-scroll-proportion="0.25668448" vertical-offset="0" max-vertical-offset="935">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#449#458#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,8 +141,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,6 +175,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,19 +247,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -286,6 +272,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -365,7 +364,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -377,7 +376,6 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -388,8 +386,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -415,6 +414,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/GameLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GuessGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="68" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="825">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="125" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="25" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
@@ -425,7 +447,6 @@
         <state line="20" column="43" selection-start="581" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="780">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#449#458#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -446,9 +467,7 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="6" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.33333334" vertical-offset="1339" max-vertical-offset="30000">
-          <folding />
-        </state>
+        <state line="140" column="6" selection-start="4484" selection-end="4484" vertical-scroll-proportion="0.33333334" vertical-offset="1339" max-vertical-offset="30000" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameLauncher.java">
@@ -460,10 +479,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="461" selection-end="461" vertical-scroll-proportion="0.21197411" vertical-offset="109" max-vertical-offset="825">
+        <state line="16" column="68" selection-start="461" selection-end="461" vertical-scroll-proportion="0.25668448" vertical-offset="0" max-vertical-offset="935">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#449#458#0" expanded="true" />
           </folding>
         </state>
       </provider>
